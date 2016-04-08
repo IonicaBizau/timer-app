@@ -1,0 +1,25 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/caiuss/1.4.1/caiuss.min.css);
+@import url(https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fixed.css);
+
+body {
+    text-align: center;
+}
+
+.controls span {
+    font-size: 5vw;
+    margin: 2vw;
+}
+
+.play-pause > span {
+    display: none;
+}
+
+.play-pause.play .show-play,
+.play-pause.pause .show-pause {
+    display: inline;
+}
+
+.timer {
+    font-size: 26vw;
+}

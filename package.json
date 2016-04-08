@@ -1,0 +1,23 @@
+{
+  "name": "timer-app",
+  "version": "1.0.0",
+  "description": "A simple timer application.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/timer-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/timer-app/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/timer-app#readme",
+  "dependencies": {
+    "elm-select": "^1.4.1",
+    "fillo": "^1.0.1"
+  }
+}
