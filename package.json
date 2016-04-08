@@ -19,5 +19,9 @@
   "dependencies": {
     "elm-select": "^1.4.1",
     "fillo": "^1.0.1"
+  },
+  "blah": {
+    "ex_img": "http://i.imgur.com/nyIY1K2.png",
+    "ex_url": "http://ionicabizau.github.io/timer-app"
   }
 }
