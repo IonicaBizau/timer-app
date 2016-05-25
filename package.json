@@ -1,6 +1,6 @@
 {
   "name": "timer-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple timer application.",
   "main": "lib/index.js",
   "scripts": {
@@ -23,5 +23,17 @@
   "blah": {
     "ex_img": "http://i.imgur.com/nyIY1K2.png",
     "ex_url": "http://ionicabizau.github.io/timer-app"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
