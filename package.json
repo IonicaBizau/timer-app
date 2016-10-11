@@ -1,6 +1,6 @@
 {
   "name": "timer-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple timer application.",
   "main": "lib/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
