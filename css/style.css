@@ -1,9 +1,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/caiuss/1.4.1/caiuss.min.css);
-@import url(https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fluid.css);
+@import url(https://unpkg.com/bag.css@1.0.2/dist/bag.all.css);
 
 body {
     text-align: center;
+    min-height: 100vh;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
 }
 
 .controls span {
@@ -22,4 +27,9 @@ body {
 
 .timer {
     font-size: 20vw;
+}
+
+body.dark {
+    color: #fff;
+    background-color: rgb(44, 62, 80);
 }
